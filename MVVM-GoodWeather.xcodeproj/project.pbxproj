@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01716C5F29CAF2CA00A0CB13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01716C5E29CAF2CA00A0CB13 /* AppDelegate.swift */; };
+		01716C6129CAF2CA00A0CB13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01716C6029CAF2CA00A0CB13 /* SceneDelegate.swift */; };
+		01716C6329CAF2CA00A0CB13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01716C6229CAF2CA00A0CB13 /* ViewController.swift */; };
+		01716C6629CAF2CA00A0CB13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01716C6429CAF2CA00A0CB13 /* Main.storyboard */; };
+		01716C6929CAF2CA00A0CB13 /* MVVM_GoodWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01716C6729CAF2CA00A0CB13 /* MVVM_GoodWeather.xcdatamodeld */; };
+		01716C6B29CAF2CD00A0CB13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01716C6A29CAF2CD00A0CB13 /* Assets.xcassets */; };
+		01716C6E29CAF2CD00A0CB13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01716C6C29CAF2CD00A0CB13 /* LaunchScreen.storyboard */; };
+		01716C7929CAF2CD00A0CB13 /* MVVM_GoodWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01716C7829CAF2CD00A0CB13 /* MVVM_GoodWeatherTests.swift */; };
+		01716C8329CAF2CD00A0CB13 /* MVVM_GoodWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01716C8229CAF2CD00A0CB13 /* MVVM_GoodWeatherUITests.swift */; };
+		01716C8529CAF2CD00A0CB13 /* MVVM_GoodWeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01716C8429CAF2CD00A0CB13 /* MVVM_GoodWeatherUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01716C7529CAF2CD00A0CB13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01716C5329CAF2CA00A0CB13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01716C5A29CAF2CA00A0CB13;
+			remoteInfo = "MVVM-GoodWeather";
+		};
+		01716C7F29CAF2CD00A0CB13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01716C5329CAF2CA00A0CB13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01716C5A29CAF2CA00A0CB13;
+			remoteInfo = "MVVM-GoodWeather";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01716C5B29CAF2CA00A0CB13 /* MVVM-GoodWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-GoodWeather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01716C5E29CAF2CA00A0CB13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01716C6029CAF2CA00A0CB13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		01716C6229CAF2CA00A0CB13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01716C6529CAF2CA00A0CB13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01716C6829CAF2CA00A0CB13 /* MVVM_GoodWeather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MVVM_GoodWeather.xcdatamodel; sourceTree = "<group>"; };
+		01716C6A29CAF2CD00A0CB13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01716C6D29CAF2CD00A0CB13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01716C6F29CAF2CD00A0CB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01716C7429CAF2CD00A0CB13 /* MVVM-GoodWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-GoodWeatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01716C7829CAF2CD00A0CB13 /* MVVM_GoodWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_GoodWeatherTests.swift; sourceTree = "<group>"; };
+		01716C7E29CAF2CD00A0CB13 /* MVVM-GoodWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-GoodWeatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01716C8229CAF2CD00A0CB13 /* MVVM_GoodWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_GoodWeatherUITests.swift; sourceTree = "<group>"; };
+		01716C8429CAF2CD00A0CB13 /* MVVM_GoodWeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_GoodWeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01716C5829CAF2CA00A0CB13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01716C7129CAF2CD00A0CB13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01716C7B29CAF2CD00A0CB13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01716C5229CAF2CA00A0CB13 = {
+			isa = PBXGroup;
+			children = (
+				01716C5D29CAF2CA00A0CB13 /* MVVM-GoodWeather */,
+				01716C7729CAF2CD00A0CB13 /* MVVM-GoodWeatherTests */,
+				01716C8129CAF2CD00A0CB13 /* MVVM-GoodWeatherUITests */,
+				01716C5C29CAF2CA00A0CB13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01716C5C29CAF2CA00A0CB13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01716C5B29CAF2CA00A0CB13 /* MVVM-GoodWeather.app */,
+				01716C7429CAF2CD00A0CB13 /* MVVM-GoodWeatherTests.xctest */,
+				01716C7E29CAF2CD00A0CB13 /* MVVM-GoodWeatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01716C5D29CAF2CA00A0CB13 /* MVVM-GoodWeather */ = {
+			isa = PBXGroup;
+			children = (
+				01716C5E29CAF2CA00A0CB13 /* AppDelegate.swift */,
+				01716C6029CAF2CA00A0CB13 /* SceneDelegate.swift */,
+				01716C6229CAF2CA00A0CB13 /* ViewController.swift */,
+				01716C6429CAF2CA00A0CB13 /* Main.storyboard */,
+				01716C6A29CAF2CD00A0CB13 /* Assets.xcassets */,
+				01716C6C29CAF2CD00A0CB13 /* LaunchScreen.storyboard */,
+				01716C6F29CAF2CD00A0CB13 /* Info.plist */,
+				01716C6729CAF2CA00A0CB13 /* MVVM_GoodWeather.xcdatamodeld */,
+			);
+			path = "MVVM-GoodWeather";
+			sourceTree = "<group>";
+		};
+		01716C7729CAF2CD00A0CB13 /* MVVM-GoodWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				01716C7829CAF2CD00A0CB13 /* MVVM_GoodWeatherTests.swift */,
+			);
+			path = "MVVM-GoodWeatherTests";
+			sourceTree = "<group>";
+		};
+		01716C8129CAF2CD00A0CB13 /* MVVM-GoodWeatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01716C8229CAF2CD00A0CB13 /* MVVM_GoodWeatherUITests.swift */,
+				01716C8429CAF2CD00A0CB13 /* MVVM_GoodWeatherUITestsLaunchTests.swift */,
+			);
+			path = "MVVM-GoodWeatherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01716C5A29CAF2CA00A0CB13 /* MVVM-GoodWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01716C8829CAF2CD00A0CB13 /* Build configuration list for PBXNativeTarget "MVVM-GoodWeather" */;
+			buildPhases = (
+				01716C5729CAF2CA00A0CB13 /* Sources */,
+				01716C5829CAF2CA00A0CB13 /* Frameworks */,
+				01716C5929CAF2CA00A0CB13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MVVM-GoodWeather";
+			productName = "MVVM-GoodWeather";
+			productReference = 01716C5B29CAF2CA00A0CB13 /* MVVM-GoodWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01716C7329CAF2CD00A0CB13 /* MVVM-GoodWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01716C8B29CAF2CD00A0CB13 /* Build configuration list for PBXNativeTarget "MVVM-GoodWeatherTests" */;
+			buildPhases = (
+				01716C7029CAF2CD00A0CB13 /* Sources */,
+				01716C7129CAF2CD00A0CB13 /* Frameworks */,
+				01716C7229CAF2CD00A0CB13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01716C7629CAF2CD00A0CB13 /* PBXTargetDependency */,
+			);
+			name = "MVVM-GoodWeatherTests";
+			productName = "MVVM-GoodWeatherTests";
+			productReference = 01716C7429CAF2CD00A0CB13 /* MVVM-GoodWeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01716C7D29CAF2CD00A0CB13 /* MVVM-GoodWeatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01716C8E29CAF2CD00A0CB13 /* Build configuration list for PBXNativeTarget "MVVM-GoodWeatherUITests" */;
+			buildPhases = (
+				01716C7A29CAF2CD00A0CB13 /* Sources */,
+				01716C7B29CAF2CD00A0CB13 /* Frameworks */,
+				01716C7C29CAF2CD00A0CB13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01716C8029CAF2CD00A0CB13 /* PBXTargetDependency */,
+			);
+			name = "MVVM-GoodWeatherUITests";
+			productName = "MVVM-GoodWeatherUITests";
+			productReference = 01716C7E29CAF2CD00A0CB13 /* MVVM-GoodWeatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01716C5329CAF2CA00A0CB13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					01716C5A29CAF2CA00A0CB13 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					01716C7329CAF2CD00A0CB13 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 01716C5A29CAF2CA00A0CB13;
+					};
+					01716C7D29CAF2CD00A0CB13 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 01716C5A29CAF2CA00A0CB13;
+					};
+				};
+			};
+			buildConfigurationList = 01716C5629CAF2CA00A0CB13 /* Build configuration list for PBXProject "MVVM-GoodWeather" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01716C5229CAF2CA00A0CB13;
+			productRefGroup = 01716C5C29CAF2CA00A0CB13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01716C5A29CAF2CA00A0CB13 /* MVVM-GoodWeather */,
+				01716C7329CAF2CD00A0CB13 /* MVVM-GoodWeatherTests */,
+				01716C7D29CAF2CD00A0CB13 /* MVVM-GoodWeatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01716C5929CAF2CA00A0CB13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01716C6E29CAF2CD00A0CB13 /* LaunchScreen.storyboard in Resources */,
+				01716C6B29CAF2CD00A0CB13 /* Assets.xcassets in Resources */,
+				01716C6629CAF2CA00A0CB13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01716C7229CAF2CD00A0CB13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01716C7C29CAF2CD00A0CB13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01716C5729CAF2CA00A0CB13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01716C6329CAF2CA00A0CB13 /* ViewController.swift in Sources */,
+				01716C5F29CAF2CA00A0CB13 /* AppDelegate.swift in Sources */,
+				01716C6129CAF2CA00A0CB13 /* SceneDelegate.swift in Sources */,
+				01716C6929CAF2CA00A0CB13 /* MVVM_GoodWeather.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01716C7029CAF2CD00A0CB13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01716C7929CAF2CD00A0CB13 /* MVVM_GoodWeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01716C7A29CAF2CD00A0CB13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01716C8529CAF2CD00A0CB13 /* MVVM_GoodWeatherUITestsLaunchTests.swift in Sources */,
+				01716C8329CAF2CD00A0CB13 /* MVVM_GoodWeatherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01716C7629CAF2CD00A0CB13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01716C5A29CAF2CA00A0CB13 /* MVVM-GoodWeather */;
+			targetProxy = 01716C7529CAF2CD00A0CB13 /* PBXContainerItemProxy */;
+		};
+		01716C8029CAF2CD00A0CB13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01716C5A29CAF2CA00A0CB13 /* MVVM-GoodWeather */;
+			targetProxy = 01716C7F29CAF2CD00A0CB13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01716C6429CAF2CA00A0CB13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01716C6529CAF2CA00A0CB13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01716C6C29CAF2CD00A0CB13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01716C6D29CAF2CD00A0CB13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01716C8629CAF2CD00A0CB13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01716C8729CAF2CD00A0CB13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01716C8929CAF2CD00A0CB13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TALXMDWBCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MVVM-GoodWeather/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.telenorbank.MVVM-GoodWeather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01716C8A29CAF2CD00A0CB13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TALXMDWBCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MVVM-GoodWeather/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.telenorbank.MVVM-GoodWeather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01716C8C29CAF2CD00A0CB13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TALXMDWBCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.telenorbank.MVVM-GoodWeatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM-GoodWeather.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MVVM-GoodWeather";
+			};
+			name = Debug;
+		};
+		01716C8D29CAF2CD00A0CB13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TALXMDWBCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.telenorbank.MVVM-GoodWeatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM-GoodWeather.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MVVM-GoodWeather";
+			};
+			name = Release;
+		};
+		01716C8F29CAF2CD00A0CB13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TALXMDWBCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.telenorbank.MVVM-GoodWeatherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MVVM-GoodWeather";
+			};
+			name = Debug;
+		};
+		01716C9029CAF2CD00A0CB13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TALXMDWBCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.telenorbank.MVVM-GoodWeatherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MVVM-GoodWeather";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01716C5629CAF2CA00A0CB13 /* Build configuration list for PBXProject "MVVM-GoodWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01716C8629CAF2CD00A0CB13 /* Debug */,
+				01716C8729CAF2CD00A0CB13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01716C8829CAF2CD00A0CB13 /* Build configuration list for PBXNativeTarget "MVVM-GoodWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01716C8929CAF2CD00A0CB13 /* Debug */,
+				01716C8A29CAF2CD00A0CB13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01716C8B29CAF2CD00A0CB13 /* Build configuration list for PBXNativeTarget "MVVM-GoodWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01716C8C29CAF2CD00A0CB13 /* Debug */,
+				01716C8D29CAF2CD00A0CB13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01716C8E29CAF2CD00A0CB13 /* Build configuration list for PBXNativeTarget "MVVM-GoodWeatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01716C8F29CAF2CD00A0CB13 /* Debug */,
+				01716C9029CAF2CD00A0CB13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		01716C6729CAF2CA00A0CB13 /* MVVM_GoodWeather.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				01716C6829CAF2CA00A0CB13 /* MVVM_GoodWeather.xcdatamodel */,
+			);
+			currentVersion = 01716C6829CAF2CA00A0CB13 /* MVVM_GoodWeather.xcdatamodel */;
+			path = MVVM_GoodWeather.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 01716C5329CAF2CA00A0CB13 /* Project object */;
+}
