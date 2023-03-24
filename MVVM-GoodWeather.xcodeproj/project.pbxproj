@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		01716C5F29CAF2CA00A0CB13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01716C5E29CAF2CA00A0CB13 /* AppDelegate.swift */; };
 		01716C6129CAF2CA00A0CB13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01716C6029CAF2CA00A0CB13 /* SceneDelegate.swift */; };
-		01716C6329CAF2CA00A0CB13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01716C6229CAF2CA00A0CB13 /* ViewController.swift */; };
 		01716C6629CAF2CA00A0CB13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01716C6429CAF2CA00A0CB13 /* Main.storyboard */; };
 		01716C6929CAF2CA00A0CB13 /* MVVM_GoodWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01716C6729CAF2CA00A0CB13 /* MVVM_GoodWeather.xcdatamodeld */; };
 		01716C6B29CAF2CD00A0CB13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01716C6A29CAF2CD00A0CB13 /* Assets.xcassets */; };
@@ -17,6 +16,15 @@
 		01716C7929CAF2CD00A0CB13 /* MVVM_GoodWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01716C7829CAF2CD00A0CB13 /* MVVM_GoodWeatherTests.swift */; };
 		01716C8329CAF2CD00A0CB13 /* MVVM_GoodWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01716C8229CAF2CD00A0CB13 /* MVVM_GoodWeatherUITests.swift */; };
 		01716C8529CAF2CD00A0CB13 /* MVVM_GoodWeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01716C8429CAF2CD00A0CB13 /* MVVM_GoodWeatherUITestsLaunchTests.swift */; };
+		01716C9329CAF45C00A0CB13 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01716C9229CAF45C00A0CB13 /* NewsListTableViewController.swift */; };
+		018D3CC129CD626F00C29B18 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018D3CC029CD626F00C29B18 /* WebServices.swift */; };
+		018D3CC429CD636700C29B18 /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018D3CC329CD636700C29B18 /* ArticleModel.swift */; };
+		018D3CC729CD683C00C29B18 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018D3CC629CD683C00C29B18 /* ArticleViewModel.swift */; };
+		018D3CC829CD683C00C29B18 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018D3CC629CD683C00C29B18 /* ArticleViewModel.swift */; };
+		018D3CC929CD683C00C29B18 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018D3CC629CD683C00C29B18 /* ArticleViewModel.swift */; };
+		018D3CCC29CD6BD800C29B18 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018D3CCB29CD6BD800C29B18 /* ArticleTableViewCell.swift */; };
+		018D3CCD29CD6BD800C29B18 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018D3CCB29CD6BD800C29B18 /* ArticleTableViewCell.swift */; };
+		018D3CCE29CD6BD800C29B18 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018D3CCB29CD6BD800C29B18 /* ArticleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +48,6 @@
 		01716C5B29CAF2CA00A0CB13 /* MVVM-GoodWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-GoodWeather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01716C5E29CAF2CA00A0CB13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01716C6029CAF2CA00A0CB13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		01716C6229CAF2CA00A0CB13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		01716C6529CAF2CA00A0CB13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01716C6829CAF2CA00A0CB13 /* MVVM_GoodWeather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MVVM_GoodWeather.xcdatamodel; sourceTree = "<group>"; };
 		01716C6A29CAF2CD00A0CB13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +58,11 @@
 		01716C7E29CAF2CD00A0CB13 /* MVVM-GoodWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-GoodWeatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01716C8229CAF2CD00A0CB13 /* MVVM_GoodWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_GoodWeatherUITests.swift; sourceTree = "<group>"; };
 		01716C8429CAF2CD00A0CB13 /* MVVM_GoodWeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_GoodWeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		01716C9229CAF45C00A0CB13 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
+		018D3CC029CD626F00C29B18 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		018D3CC329CD636700C29B18 /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
+		018D3CC629CD683C00C29B18 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		018D3CCB29CD6BD800C29B18 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +113,13 @@
 		01716C5D29CAF2CA00A0CB13 /* MVVM-GoodWeather */ = {
 			isa = PBXGroup;
 			children = (
+				018D3CCA29CD6BC400C29B18 /* Cells */,
+				018D3CC529CD681E00C29B18 /* View Models */,
+				018D3CC229CD634700C29B18 /* Article */,
+				018D3CBF29CD625500C29B18 /* Services */,
+				01716C9129CAF31400A0CB13 /* Controllers */,
 				01716C5E29CAF2CA00A0CB13 /* AppDelegate.swift */,
 				01716C6029CAF2CA00A0CB13 /* SceneDelegate.swift */,
-				01716C6229CAF2CA00A0CB13 /* ViewController.swift */,
 				01716C6429CAF2CA00A0CB13 /* Main.storyboard */,
 				01716C6A29CAF2CD00A0CB13 /* Assets.xcassets */,
 				01716C6C29CAF2CD00A0CB13 /* LaunchScreen.storyboard */,
@@ -128,6 +144,46 @@
 				01716C8429CAF2CD00A0CB13 /* MVVM_GoodWeatherUITestsLaunchTests.swift */,
 			);
 			path = "MVVM-GoodWeatherUITests";
+			sourceTree = "<group>";
+		};
+		01716C9129CAF31400A0CB13 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				01716C9229CAF45C00A0CB13 /* NewsListTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		018D3CBF29CD625500C29B18 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				018D3CC029CD626F00C29B18 /* WebServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		018D3CC229CD634700C29B18 /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				018D3CC329CD636700C29B18 /* ArticleModel.swift */,
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
+		018D3CC529CD681E00C29B18 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				018D3CC629CD683C00C29B18 /* ArticleViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		018D3CCA29CD6BC400C29B18 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				018D3CCB29CD6BD800C29B18 /* ArticleTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +317,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01716C6329CAF2CA00A0CB13 /* ViewController.swift in Sources */,
+				01716C9329CAF45C00A0CB13 /* NewsListTableViewController.swift in Sources */,
+				018D3CC129CD626F00C29B18 /* WebServices.swift in Sources */,
 				01716C5F29CAF2CA00A0CB13 /* AppDelegate.swift in Sources */,
 				01716C6129CAF2CA00A0CB13 /* SceneDelegate.swift in Sources */,
+				018D3CCC29CD6BD800C29B18 /* ArticleTableViewCell.swift in Sources */,
+				018D3CC429CD636700C29B18 /* ArticleModel.swift in Sources */,
+				018D3CC729CD683C00C29B18 /* ArticleViewModel.swift in Sources */,
 				01716C6929CAF2CA00A0CB13 /* MVVM_GoodWeather.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +333,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				01716C7929CAF2CD00A0CB13 /* MVVM_GoodWeatherTests.swift in Sources */,
+				018D3CCD29CD6BD800C29B18 /* ArticleTableViewCell.swift in Sources */,
+				018D3CC829CD683C00C29B18 /* ArticleViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +342,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				018D3CCE29CD6BD800C29B18 /* ArticleTableViewCell.swift in Sources */,
+				018D3CC929CD683C00C29B18 /* ArticleViewModel.swift in Sources */,
 				01716C8529CAF2CD00A0CB13 /* MVVM_GoodWeatherUITestsLaunchTests.swift in Sources */,
 				01716C8329CAF2CD00A0CB13 /* MVVM_GoodWeatherUITests.swift in Sources */,
 			);
@@ -447,6 +511,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,6 +540,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1A710941-397D-4EF8-B6F9-15C912849C04"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5C7A510-BF7D-4E50-93D8-FF52D660D135"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVM-GoodWeather/Controllers/NewsListTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "setup()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C5C7A510-BF7D-4E50-93D8-FF52D660D135 - ee0b609a8acdbe1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;MVVM_GoodWeather.Article&gt;&gt;) -&gt; () in MVVM_GoodWeather.NewsListTableViewController.setup() -&gt; ()"
+                  moduleName = "MVVM-GoodWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/raja.ahmed/Documents/Learning%20Projects/MVVM-GoodWeather/MVVM-GoodWeather/MVVM-GoodWeather/Controllers/NewsListTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "475">
+               </Location>
+               <Location
+                  uuid = "C5C7A510-BF7D-4E50-93D8-FF52D660D135 - 6217a2f2b4fd03c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;Swift.Array&lt;MVVM_GoodWeather.Article&gt;&gt;) -&gt; () in MVVM_GoodWeather.NewsListTableViewController.setup() -&gt; ()"
+                  moduleName = "MVVM-GoodWeather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/raja.ahmed/Documents/Learning%20Projects/MVVM-GoodWeather/MVVM-GoodWeather/MVVM-GoodWeather/Controllers/NewsListTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
